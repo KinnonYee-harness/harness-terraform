@@ -33,9 +33,3 @@ variable "tag_env" {
   description = "Tag for Environment Name"
   default     = "training"
   }
-
-variable "tag_env" {
-  type        = string
-  description = "Tag for Environment Name"
-  default     = "training"
-  }
