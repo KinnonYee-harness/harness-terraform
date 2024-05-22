@@ -1,8 +1,7 @@
 provider "aws" {
-  assume_role {
-    role_arn     = "arn:aws:iam::915632791698:role/Kinnon-DelegateRoleAccess"
-    session_name = "harness-tf"
-  }
+  access_key = "${var.access_key}"
+  secret_key = "${var.secret_key}"
+  region = "${var.region}"
 }
 
 resource "aws_s3_bucket" "tf-root-module-bucket" {
