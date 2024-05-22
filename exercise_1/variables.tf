@@ -1,3 +1,6 @@
+variable "access_key" {ASIA5KL7XUCJAU7EDI5Q}
+variable "secret_key" {ZwIjG/arSqcnHZNI93tOziUp+IXLmejLA+aWFyKC}
+
 variable "region" {
   type        = string
   description = "AWS Region required by Terraform AWS Provider"
