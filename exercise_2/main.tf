@@ -7,7 +7,7 @@ provider "aws" {
 
 terraform {
    backend "s3" {
-   bucket = "kinnon-terra-sf
+   bucket = "kinnon-terra-sf"
    key = "terraform.tfstate"
    region = "us-east-2"
   }
