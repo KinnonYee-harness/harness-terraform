@@ -4,7 +4,7 @@ variable "access_key" {
 }
 variable "secret_key" {
   type        = string
-  default     = "w8n6yfQdMoM9n+OLAv/t3xiHyIqAcxj6Sll4Vafo"
+  default     = "Pc6zA7YAN++B7k9dTQyM2JAtPqCgIbRxQQUDfHj3"
 }
 variable "token_key" {
   type        = string
